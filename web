@@ -1,0 +1,19 @@
+Route::get('home', function () {
+    return view('index');
+});
+
+Route::get('register', function () {
+    return view('register');
+});
+
+Route::get('choose', function () {
+    return view('choose');
+});
+
+Route::get('restaurant', function () {
+    return view('restaurant');
+});
+
+Route::get('menu', function () {
+    return view('menu');
+});
